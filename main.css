@@ -1,9 +1,12 @@
 *{
     margin: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 nav{
-    padding: 5px;
+    padding: 2vw;
     margin: auto;
+    background: lightblue;
 }
 nav ul{
     padding-left: 0;
@@ -11,8 +14,8 @@ nav ul{
 }
 nav li{
     display: inline;
-    padding: 5px;
-    border-right: 2px solid black;
+    padding: 2vw;
+    border: 2px solid black;
 }
 h1{
     font: Flavors;
@@ -34,5 +37,25 @@ div{
     margin: 0 auto;
 }
 img{
-    max-width: 80vw;
+    max-width: 80%;
+    height: auto;
+}
+#scary_button{
+    background: darkred;
+    font: Flavors;
+    color: white;
+}
+
+header{
+    background: lightcyan;
+    padding: 2vw;
+}
+
+button{
+    margin: 2vw;
+    padding: 1vw;
+}
+
+#scary{
+    display: none;
 }
